@@ -146,18 +146,18 @@ may seem "disrespectful"
 
 Results:
 
-Test  Heads  Tails
-----  -----  -----
-1         6      4
-2         2      8 
-3         2      8
-4         5      5
-5         4      6
-6         4      6
-7         3      7
-8         8      2
-9         5      5
-10        7      3
+| Test | Heads  | Tails |
+| ---- | -----  | ----- |
+| 1    | 6      | 4     |
+| 2    | 2      | 8     |
+| 3    | 2      | 8     |
+| 4    | 5      | 5     |
+| 5    | 4      | 6     |
+| 6    | 4      | 6     |
+| 7    | 3      | 7     |
+| 8    | 8      | 2     |
+| 9    | 5      | 5     |
+| 10   | 7      | 3     |
 
 Average heads: 4.8
 
@@ -261,7 +261,7 @@ we expect in Christianity.
 
 So, if we are to represent this understanding that we can test as a baysian network.
 
-Pr(God exists) -> Pr(God lets me test on him|God exists) -> Pr(God allows [test] to succeed | God lets me test on him)
+Pr(God exists) -> Pr(God lets me test on him\|God exists) -> Pr(God allows [test] to succeed \| God lets me test on him)
 
 This obviously branches hugely on the third node. But I can eliminate nodes by
 conducting tests.
@@ -274,7 +274,7 @@ the tests themselves. So I want to set a Pr(God exists) to that of an atheists
 position, maybe 0.01. If I wanted to make this more specific, I could try and get
 a collection of atheists and ask them for probabilities that God exists.
 
-Pr(God lets me test on him|God exists) is an unfortunate idea that ["you shall not
+Pr(God lets me test on him\|God exists) is an unfortunate idea that ["you shall not
 put the lord your god to the test"](https://en.wikipedia.org/wiki/Matthew_4:7), which might seem like a statistical test to some.
 I am going to put this at 0.02, because [Elijah himself puts God to the test in
 the way I am refering to](https://en.wikipedia.org/wiki/Elijah#Challenge_to_Baal). I think when Jesus said "do not put the lord your God
